@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
         // check if this cell is already played
         var cell = textViewAt(row, column)
 
-        if (cell.text == EMPTY_CELL.toString()) {
+        if (cell.text != EMPTY_CELL.toString()) {
             return
         }
 
