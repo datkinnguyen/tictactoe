@@ -24,33 +24,40 @@
                   style="@style/TableRow">
 
             <TextView style="@style/Cell.Left"
-                      android:layout_marginTop="0dp"/>
+                      android:layout_marginTop="0dp"
+                      android:onClick="onClickCell"/>
             <TextView style="@style/Cell.Middle"
-                      android:layout_marginTop="0dp"/>
+                      android:layout_marginTop="0dp"
+                      android:onClick="onClickCell"/>
             <TextView style="@style/Cell.Right"
-                      android:layout_marginTop="0dp"/>
+                      android:layout_marginTop="0dp"
+                      android:onClick="onClickCell"/>
         </TableRow>
 
         <TableRow android:id="@+id/r1"
                   style="@style/TableRow">
 
             <TextView style="@style/Cell.Left"
-                      android:layout_marginTop="0dp"/>
+                      android:onClick="onClickCell"/>
             <TextView style="@style/Cell.Middle"
-                      android:layout_marginTop="0dp"/>
+                      android:onClick="onClickCell"/>
             <TextView style="@style/Cell.Right"
-                      android:layout_marginTop="0dp"/>
+                      android:onClick="onClickCell"/>
         </TableRow>
 
         <TableRow android:id="@+id/r2"
-                  style="@style/TableRow">
+                  style="@style/TableRow"
+                  android:visibility="visible">
 
             <TextView style="@style/Cell.Left"
-                      android:layout_marginTop="0dp"/>
+                      android:layout_marginBottom="0dp"
+                      android:onClick="onClickCell"/>
             <TextView style="@style/Cell.Middle"
-                      android:layout_marginTop="0dp"/>
+                      android:layout_marginBottom="0dp"
+                      android:onClick="onClickCell"/>
             <TextView style="@style/Cell.Right"
-                      android:layout_marginTop="0dp"/>
+                      android:layout_marginBottom="0dp"
+                      android:onClick="onClickCell"/>
         </TableRow>
 
     </TableLayout>
